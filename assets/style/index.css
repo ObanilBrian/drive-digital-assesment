@@ -1,0 +1,220 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+@font-face {
+  font-family: "BrownLL";
+  src: url("../fonts/BrownLL-Regular.woff2") format("woff2"),
+    url("../fonts/BrownLL-Regular.woff") format("woff");
+}
+
+* {
+  font-family: "BrownLL", Arial, sans-serif;
+}
+
+figure {
+  margin: 0;
+}
+
+/** HEADER **/
+.notification {
+  background: #181800;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.43px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+header {
+  position: relative;
+  height: 160px;
+  margin: 0 48px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 160px;
+}
+
+.nav__link {
+  color: #181800;
+  font-size: 18px;
+  line-height: 20px;
+  padding-right: 32px;
+  text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo__image {
+  height: 35px;
+  width: 292.83px;
+}
+
+.cart {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #181800;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.cart__icon {
+  height: 18px;
+  margin-right: 8px;
+}
+
+/** HERO **/
+.hero {
+  position: relative;
+  color: #fff;
+}
+
+.hero__image {
+  width: 100%;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 91px;
+}
+
+.caption__title {
+  font-size: 50px;
+  letter-spacing: -1.74px;
+  line-height: 55px;
+}
+
+.caption__description {
+  font-size: 24px;
+  letter-spacing: 0.67px;
+  line-height: 31px;
+  margin-top: 20px;
+}
+
+.caption__cta {
+  background-color: #181800;
+  padding: 21px 4px;
+  min-width: 163px;
+  display: inline-block;
+  margin-top: 43px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.intro {
+  margin: 97px 48px 75px 48px;
+}
+
+.intro__title {
+  font-size: 37px;
+  letter-spacing: -0.74px;
+  line-height: 40px;
+  text-align: center;
+  color: #181800;
+}
+
+.intro__description {
+  color: #181800;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 31px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.products {
+  text-align: center;
+}
+
+.product {
+  max-width: 401px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 65.5px;
+}
+
+.product__image {
+  height: 461px;
+  width: 401px;
+}
+
+.product__star {
+  height: 14px;
+}
+
+.product__name {
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 38px;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.product__review {
+  margin-bottom: 8px;
+}
+
+.product__price {
+  margin-bottom: 8px;
+}
+
+.product__cta {
+  border: 2px solid #181800;
+  background-color: #181800;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 17px;
+  text-align: center;
+  min-width: 163px;
+  padding: 21px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.testimonials {
+  text-align: center;
+  margin: 75px 0;
+}
+
+.testimonial {
+  width: calc(40% - 150px);
+  display: inline-block;
+  margin: 0 50px;
+  vertical-align: top;
+}
+
+.testimonial__message {
+  font-size: 24px;
+  color: #181800;
+  line-height: 31px;
+}
+
+.testimonial__author {
+  font-style: italic;
+  font-size: 24px;
+  line-height: 31px;
+  margin-top: 100px;
+}
+
+.features {
+  text-align: center;
+}
